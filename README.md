@@ -1,6 +1,8 @@
 # AVE × Four.meme 专属交易狂欢赛 活动页
 
-正式域名：https://ryde4.ave.ai/ （GitHub Pages，仓库 Alex-3336/ryde4，`main` 分支根目录发布，`CNAME` 已配置；以后可迁到 pc-h5-allpages 组织）
+仓库：alexmarketing001/meme_01_2026-11-25（GitHub Pages，`main` 分支根目录），预览地址 https://alexmarketing001.github.io/meme_01_2026-11-25/
+
+正式域名 https://ryde4.ave.ai/ 目前仍指向旧仓库 Alex-3336/ryde4。切换步骤：① 旧仓库 Pages 移除自定义域名；② 本仓库加回 `CNAME`（内容 `ryde4.ave.ai`）并推送；③ Ethan 把 Cloudflare 上 `ryde4` 改指向 `alexmarketing001.github.io`。
 
 ## 文件
 - `index.html`：发布的页面（样式、脚本、图片全部内嵌，可单独打开或转发）。**不要直接改它**，改下面的源文件后重新生成。
@@ -23,5 +25,5 @@
 
 ## 待办
 - 后端公开榜单接口（地址打码，字段同 OFT 接口）→ 填 `LEADERBOARD_API_URL`，并对 `https://ryde4.ave.ai` 开放跨域。未填时榜单显示"活动尚未开始"。
-- DNS：`ryde4.ave.ai` 需要 CNAME 指向 `alex-3336.github.io`（Cloudflare，只做 DNS 解析，不开代理）。
+- 域名申请流程：在群里 @Ethan，cc Andy、Hope，任一人同意后 Ethan 配置。
 - 结算用的完整数据（含完整地址）不得放进本仓库或页面。

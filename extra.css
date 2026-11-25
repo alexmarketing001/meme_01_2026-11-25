@@ -425,3 +425,9 @@ footer,.footer-event,.social-link{color:#5a6080}
 @media(max-width:760px){
   footer .wrap{padding-top:18px;padding-bottom:calc(96px + env(safe-area-inset-bottom))}
 }
+/* 平板宽度：背景主体会压到文案，左侧加压暗保证可读（11/25） */
+@media(min-width:761px) and (max-width:1100px){
+  .band{position:relative;background-position:75% center}
+  .band:before{display:block;content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,8,46,.88) 0%,rgba(5,8,46,.6) 45%,rgba(5,8,46,0) 75%);-webkit-mask-image:none;mask-image:none;pointer-events:none}
+  .band>.wrap{position:relative;z-index:1}
+}
