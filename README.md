@@ -2,7 +2,7 @@
 
 仓库：alexmarketing001/meme_01_2026-11-25（GitHub Pages，`main` 分支根目录），预览地址 https://alexmarketing001.github.io/meme_01_2026-11-25/
 
-正式域名 https://ryde4.ave.ai/ 目前仍指向旧仓库 Alex-3336/ryde4。切换步骤：① 旧仓库 Pages 移除自定义域名；② 本仓库加回 `CNAME`（内容 `ryde4.ave.ai`）并推送；③ Ethan 把 Cloudflare 上 `ryde4` 改指向 `alexmarketing001.github.io`。
+正式域名 https://ryde4.ave.ai/ 已于 11/25 从旧仓库 Alex-3336/ryde4 切到本仓库（`CNAME` 已配置）；DNS 由 Ethan 在 Cloudflare 维护，目标 `alexmarketing001.github.io`。
 
 ## 文件
 - `index.html`：发布的页面（样式、脚本、图片全部内嵌，可单独打开或转发）。**不要直接改它**，改下面的源文件后重新生成。
