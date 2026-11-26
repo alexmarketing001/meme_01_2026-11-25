@@ -56,7 +56,7 @@ ave_logo = re.search(r'class="ave-logo" src="(data:[^"]+)"', tpl).group(1)
 head = tpl[:tpl.index("</style>")].replace("content=\"#13294b\"", "content=\"#070b3a\"")
 head = re.sub(r'<title>.*?</title>', '<title>AVE × Four.meme 专属交易狂欢赛｜40,000 USDT 等你拿</title>', head)
 head = re.sub(r'<meta name="description"[^>]*>',
-              '<meta name="description" content="在 Ave.ai 交易 4Stock 代币 RYDE4（BNB Chain）及以该代币为底池的 Meme：交易满 200U 瓜分 25,000 USDT 空投，交易量前 500 名瓜分 15,000 USDT。2026.11.26 18:00 开赛，持续 14 天。">', head)
+              '<meta name="description" content="在 Ave.ai 交易 4Stock 代币 RYDE4（BNB Chain）及以该代币为底池的 Meme：交易满 200U 瓜分 25,000 USDT 空投，交易量前 500 名瓜分 15,000 USDT。上线时间待定。">', head)
 head = re.sub(r'<meta property="og:title"[^>]*>', '<meta property="og:title" content="AVE × Four.meme 专属交易狂欢赛">', head)
 head = re.sub(r'<meta property="og:description"[^>]*>',
               '<meta property="og:description" content="40,000 USDT 等你拿！交易 RYDE4 及其底池 Meme，满 200U 瓜分 25,000 USDT，前 500 名瓜分 15,000 USDT。">', head)
